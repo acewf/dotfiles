@@ -46,6 +46,7 @@ brew install reattach-to-user-namespace
 brew install bash-git-prompt
 brew install gpg
 
+brew install zsh
 # Install nodejs tools
 # brew install nvm
 brew install yarn
@@ -116,7 +117,11 @@ brew install jrnl
 brew tap caskroom/cask
 brew cask install insomnia
 brew cask install framer
-brew cask install google-chrome
+brew cask install \
+    google-chrome \
+    docker \
+    visual-studio-code \
+    iterm2
 
 # Remove outdated versions from the cellar.
 brew cleanup
